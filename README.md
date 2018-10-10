@@ -1,4 +1,4 @@
-#CornellMoodleSkin
+# CornellMoodleSkin
 A cleaner, darker theme for Cornell College moodle
 
 ## What?
@@ -7,7 +7,7 @@ Before:
 After:
 ![Moodle After](https://people.cornellcollege.edu/jtortorello19/moodle/after.png)
 
-##How
+## How
 You need to be able to modify the CSS and JavaScript on Moodle. The recommended method for doing this is with a browser
 plugin.
 
