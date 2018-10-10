@@ -11,8 +11,8 @@ After:
 You need to be able to modify the CSS and JavaScript on Moodle. The recommended method for doing this is with a browser
 plugin.
 
-Consider Stylus for CSS ([Chrome](https://chrome.google.com/webstore/detail/stylus/clngdbkpkpeebahjckkjfobafhncgmne),
-[Firefox](https://addons.mozilla.org/en-US/firefox/addon/styl-us/)), and TamperMonkey
+Consider Stylus ([Chrome](https://chrome.google.com/webstore/detail/stylus/clngdbkpkpeebahjckkjfobafhncgmne),
+[Firefox](https://addons.mozilla.org/en-US/firefox/addon/styl-us/)) for CSS, and TamperMonkey
 ([Chrome](https://chrome.google.com/webstore/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo)) or GreaseMonkey
 ([Firefox](https://addons.mozilla.org/en-US/firefox/addon/greasemonkey/)) for JavaScript. Your JS plugin should be able
 to accept scripts in the UserScript format. Anything that can accept standard CSS is fine for the CSS.
