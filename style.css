@@ -1,0 +1,151 @@
+html, body, .card-block, .courses .coursebox.even {
+    background-color: #33393B !important;
+    color: white;
+    border: none;
+}
+
+.navbar-light {
+    background-color: #27042E;
+    border: 0;
+}
+
+#dropdown-1, #nav-notification-popover-container > div.popover-region-toggle.nav-link, #nav-message-popover-container > div.popover-region-toggle.nav-link {
+    color: white;
+}
+
+#page-header > div > div, #region-main-box > section.hidden-print {
+    border: 0;
+    border-bottom: 3px solid white;
+}
+
+#page-navbar {
+    display: none;
+    height: 0;
+}
+
+#region-main {
+    width: 100% !important;
+}
+
+.courses .coursebox:hover {
+    background-color: inherit;
+}
+
+.coursebox>.info>.coursename a {
+    background-image: none;
+    padding-left: 0;
+}
+
+
+.navbar-light .navbar-brand {
+    background-color: rgba(0,0,0,0);
+    padding: 0;
+    margin: 0;
+}
+
+#jt-cc-logo {
+    position: relative;
+    top: -15px;
+    max-height: 65px;
+}
+
+#jt-moodle-logo {
+    position: relative;
+    top: -19px;
+    max-height: 25px;
+}
+
+
+.navbar-light .navbar-brand:hover {
+    color: rgba(0,0,0,0);
+}
+
+#nav-drawer {
+    background-color: #27042E;
+    margin-top: -1px;
+    border: 1px solid #27042E;
+    height: calc(100% - 49px);
+    color: black;
+}
+
+.list-group-item, .list-group-item:hover {
+    color: inherit;
+}
+
+a:hover {
+    text-decoration: none;
+    color: #85cce2;
+}
+
+.bg-inverse {
+    background: linear-gradient(to bottom, #33393b 0%,#151515 100%) !important;
+}
+
+.jt-courseCode {
+    font-size: 0.5em;
+}
+
+section[data-region=blocks-column] {
+    display: none;
+}
+
+.generaltable tbody tr:nth-of-type(odd), .generaltable tbody tr:hover {
+    background: inherit;
+}
+
+.path-mod-assign td.submissionnotgraded {
+    background: inherit;
+    color: yellow;
+}
+
+.path-mod-assign td.submissiongraded {
+    background: inherit;
+    color: green;
+}
+
+.path-mod-assign td.submissionstatussubmitted {
+    background: inherit;
+    color: green;
+}
+
+.path-mod-assign td.earlysubmission {
+    background: inherit;
+    color: green;
+}
+
+@media (min-width: 1281px) {
+    #page-content, #page-header {
+        padding-left: 15%;
+        padding-right: 15%;
+    }
+}
+
+@media (min-width: 2559px) {
+    #page-content, #page-header {
+        padding-left: 30%;
+        padding-right: 30%;
+    }
+}
+
+/*Assignments page tweaks*/
+div[role="dialog"] {
+    color: black;
+}
+
+.fp-pathbar .fp-path-folder {
+    background: url('https://upload.wikimedia.org/wikipedia/commons/f/f3/Folder.svg') left 3px no-repeat;
+    background-size: auto 18px;
+}
+
+.fp-navbar, .filemanager-container {
+    background-color: #33393B;
+    border: none;
+}
+
+.fm-empty-container {
+    border: 2px dashed white !important;
+}
+
+.dndupload-arrow {
+    background: url('https://upload.wikimedia.org/wikipedia/commons/c/cd/Image_upload-tango.svg') center no-repeat;
+}
